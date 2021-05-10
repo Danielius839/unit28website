@@ -1,0 +1,82 @@
+
+/*This adds an image as a backgound*/
+body {
+  background: url('../images/bg1.jfif');
+}
+
+/*Makes the footerstndout and fit in the middle
+of the screen*/
+footer{
+  background-color: rgb(55%,55%,55%,0.97);
+  font-family: 'Ultra', serif;
+  padding: 2%
+}
+
+#wrapper {
+  background-color: rgb(50%,50%,50%,0.90);
+  font-family: 'Ultra', serif;
+}
+
+#wrapper  {
+
+  width:70%;
+  margin:auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  background-color: #111;
+}
+/*Put all the vieos in the videos page in tidy order*/
+.grid-container{
+  padding: 30px 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+.grid-item{
+  margin-right: 20px;
+}
+
+/*Put the title of the website and logo in the middle and in one line*/
+.title{
+  padding: 2% 5%;
+  display: grid;
+  grid-template-columns: 2fr 4fr
+}
+
+h1{
+  font-size: 48px;
+}
+
+
+h2{
+  padding-left: 50px;
+}
+
+#slider{
+  margin-left: 15%;
+}
+
+.extraInfo{
+  padding: 10%;
+}
